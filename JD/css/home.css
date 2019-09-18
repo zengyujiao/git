@@ -1,0 +1,144 @@
+#box{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.header{
+    height:80px;
+    width:1000px;
+    margin:auto;
+    position: relative;
+}
+.header-left{
+    width:300px;
+    height:80px;
+    position: absolute;
+}
+.header-left img{
+    margin-top:10px;
+}
+.header-left h4{
+    position: absolute;
+    right:10px;
+    top:30px;
+    color:#3A3A3A;
+    font-size:25px;
+}
+.header-right{
+    height:80px;
+    width:140px;
+    position: absolute;
+    right:0;
+}
+.header-right a{
+    font-size:12px;
+    color:#999999;
+    position: absolute;
+    bottom:10px;
+    right:5px;
+}
+.header-right .rightdiv a:hover{
+    color:#E4393C;
+}
+/* -------over---------- */
+.over{
+    height:50px;
+    width:100%;
+    background:#FFF8F0;
+    margin:auto;
+    position: relative;
+}
+.over i{
+    position: absolute;
+    left:280px;
+    top:13px;
+}
+.over p{
+    position: absolute;
+    left:300px;
+    top:18px;
+    font-size:12px;
+    color:#999999;
+}
+.over p a{
+    color:#000;
+}
+.over p a:hover{
+    border-bottom:1px solid #000;
+}
+/* -------article----------- */
+.article{
+    height:480px;
+    width:100%;
+    background: #160555;
+    position: relative;
+}
+.article img{
+    position: absolute;
+    left:170px;
+}
+.article .article_bg{
+    height:460px;
+    width:360px;
+    background:#fff;
+    position: absolute;
+    left:820px;
+    top:10px;
+}
+.article_bg .login{
+    height:40px;
+    width:360px;
+    background:#FFF8F0;
+}
+.article_bg .login p{
+    font-size:12px;
+    height:40px;
+    width:360px;
+    line-height:40px;
+    color:#999;
+    text-align:center;
+}
+.article_bg .login p .bog{
+    position: absolute;
+    left:25px;
+    top:11px;
+}
+/* ------footer---------- */
+.footer{
+    height:80px;
+    width:1000px;
+    margin:auto;
+}
+.footer ul{
+    height:40px;
+    width:1000px;
+}
+.footer li{
+    height:14px;
+    float:left;
+    color:#999;
+    font-size:14px;
+    width:90px;
+    line-height:14px;
+    text-align:center;
+    margin-top:20px;
+    border-right:1px solid #999;
+}
+a{
+    color:#666666;
+}
+.footer a:hover{
+    color:#E4393C;
+}
+li:last-child{
+    border-right:none;
+}
+.footer p{
+    font-size:13px;
+    width:1000px;
+    text-align:center;
+    color:#999;
+}
+.footer p span{
+    color:#666666;
+}
