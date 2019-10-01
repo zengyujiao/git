@@ -1,0 +1,449 @@
+#box{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+/* -----------header--------------- */
+#header{
+    width:100%;
+    height:100px;
+    border-bottom:4px solid #F2F2F2;
+}
+.header{
+    height:80px;
+    width:1200px;
+    margin:auto;
+    position: relative;
+    
+}
+.header-left{
+    width:300px;
+    height:80px;
+    position: absolute;
+}
+.header-left img{
+    margin-top:20px;
+    height:50px;
+    
+}
+.header-left h4{
+    position: absolute;
+    right:40px;
+    top:35px;
+    color:#3A3A3A;
+    font-size:24px;
+}
+.header-right{
+    height:80px;
+    width:170px;
+    position: absolute;
+    right:0;
+    top:15px;
+}
+.header-right a{
+    font-size:16px;
+    color:red;
+    position: absolute;
+    bottom:10px;
+    right:0px;
+}
+.header-right span{
+    display: block;
+    position: absolute;
+    top:50px;
+    left:20px;
+    color:#999999;
+}
+
+.header-right .rightdiv a:hover{
+    color:#E4393C;
+    border-bottom:1px solid #E4393C;
+}
+
+/* -------center------------ */
+.center{
+    height:600px;
+    width:100%;
+}
+/* ----------序列号------------- */
+.center .progress{
+    height:60px;
+    width:400px;
+    position: relative;
+    top:80px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+}
+.progress .por-step{
+    height:60px;
+    width:70px;
+}
+.por-step .step-index{
+    display: inline-block;
+    height:24px;
+    width:26px;
+    line-height:24px;
+    text-align:center;
+    background:#33BB44;
+    color:#fff;
+    border-radius: 50px;
+    margin-left:22px;
+}
+.por-step .step-desc{
+    margin-top:10px;
+    font-size:10px;
+    margin-left:5px;
+    color:#33BB44;
+}
+.progress .por-step1{
+    height:60px;
+    width:70px;
+    margin:auto;
+}
+.por-step1 .step-index{
+    display: inline-block;
+    height:24px;
+    width:26px;
+    line-height:24px;
+    text-align:center;
+    color:#CCCCCC;
+    border:1px solid #ccc;
+    border-radius: 50px;
+    margin-left:22px;
+}
+.por-step1 .step-desc{
+    margin-top:10px;
+    font-size:10px;
+    margin-left:5px;
+    color:#ccc;
+}
+.progress .por-step2{
+    height:60px;
+    width:70px;
+    margin-right:0;
+}
+.por-step2 .step-index{
+    display: inline-block;
+    height:24px;
+    width:26px;
+    line-height:24px;
+    text-align:center;
+    color:#CCCCCC;
+    border:1px solid #ccc;
+    border-radius: 50px;
+    margin-left:22px;
+}
+.por-step2 .step-desc{
+    margin-top:10px;
+    font-size:10px;
+    margin-left:5px;
+    color:#ccc;
+}
+
+/* -----------验证信息---------------- */
+.center .main{
+    height:300px;
+    width:400px;
+    position: relative;
+    top:130px;
+    margin:auto;
+}
+.main .reg-form{
+    height:250px;
+    width:400px;
+}
+.reg-form .form-phone{
+    height:50px;
+    width:300px;
+    position: absolute;
+    top:0px;
+    left:100px;
+    border:1px solid #ccc;
+    border-left:none;
+    line-height:50px;
+    padding-left:10px;
+}
+.reg-form .php{
+    background:#fff;
+    height:50px;
+    width:100px;
+    color:#666666;
+    border:1px solid #ccc;
+    text-align:center;
+    line-height:50px;
+}
+.reg-form .form-item1{
+    height:80px;
+    width:400px;
+}
+.reg-form .php1{
+    height:50px;
+    width:100px;
+    float: left;
+    font-size:14px;
+    text-align: center;
+    line-height: 50px;
+    color:#999;
+    border:1px solid #ccc;
+    border-right:none;
+}
+.reg-form .form-phone1{
+    height:50px;
+    width:300px;
+    font-size: 14px;
+    float: left;
+    line-height: 50px;
+    border:1px solid #ccc;
+}
+.reg-form .con1{
+    border:1px solid red;
+}
+.reg-form .text-san1{
+    height:30px;
+    width:400px;
+    color:red;
+    font-size:14px;
+    line-height: 30px;
+    padding-left:20px;
+    display: inline-block;
+}
+.reg-form .form-item2{
+    height:80px;
+    width:400px;
+}
+.reg-form .php2{
+    height:50px;
+    width:100px;
+    float: left;
+    font-size:14px;
+    text-align: center;
+    line-height: 50px;
+    color:#999;
+    border:1px solid #ccc;
+    border-right:none;
+}
+.reg-form .form-phone2{
+    height:50px;
+    width:300px;
+    float: left;
+    line-height: 50px;
+    border:1px solid #ccc;
+}
+.reg-form .text-san2{
+    height:30px;
+    width:400px;
+    color:red;
+    font-size:14px;
+    line-height: 30px;
+    padding-left:20px;
+    display: inline-block;
+}
+
+.reg-form .form-item3{
+    height:80px;
+    width:400px;
+}
+.reg-form .php3{
+    height:50px;
+    width:100px;
+    float: left;
+    font-size:14px;
+    text-align: center;
+    line-height: 50px;
+    color:#999;
+    border:1px solid #ccc;
+}
+.reg-form .form-phone3{
+    height:50px;
+    width:300px;
+    float: left;
+    line-height: 50px;
+    border:1px solid #ccc;
+    border-left:none;
+}
+.reg-form .text-san3{
+    height:30px;
+    width:400px;
+    color:red;
+    font-size:14px;
+    line-height: 30px;
+    padding-left:20px;
+    display: inline-block;
+}
+.reg-form .form-item4{
+    height:80px;
+    width:400px;
+}
+.reg-form .php4{
+    height:50px;
+    width:100px;
+    float: left;
+    font-size:14px;
+    text-align: center;
+    line-height: 50px;
+    color:#999;
+    border:1px solid #ccc;
+}
+.reg-form .form-phone4{
+    height:50px;
+    display: inline-block;
+    width:200px;
+    float: left;
+    font-size: 14px;
+    line-height: 50px;
+    border:1px solid #ccc;
+    border-left:none;
+}
+.reg-form #msgCodeBtn{
+    height:50px;
+    width:100px;
+    float: left;
+    color:#999;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid #ccc;
+    border-left:none;
+}
+.reg-form .text-san4{
+    height:30px;
+    width:400px;
+    color:red;
+    font-size:14px;
+    line-height: 30px;
+    padding-left:20px;
+    display: inline-block;
+}
+.form-phone:empty::before{
+    color:lightgrey;
+    /* color:red; */
+    content:attr(placeholder);
+}
+.reg-form .text-san{
+    font-size:12px;
+    color:red;
+    position: absolute;
+    top:55px;
+}
+.reg-form .con{
+    border:1px solid red;
+}
+.reg-form .san{
+    color:#f91;
+}
+input{
+    padding-left:10px;
+}
+input::placeholder{
+    font-size:14px;
+    color:#ccc;
+}
+.reg-form .form-submit{
+    height:50px;
+    width:400px;
+    margin-top:10px;
+    background:#E2231A;
+    color:#fff;
+    font-size:16px;
+}
+.main .reg-other{
+    height:50px;
+    width:400px;
+    margin-top:200px;
+}
+.reg-other img{
+    margin-right:10px;
+}
+.reg-other a:hover{
+    color:#E4393C;
+}
+.reg-other .icon{
+    height:50px;
+    width:150px;
+    float:left;
+    /* text-align:center; */
+    line-height:50px;
+    font-size:14px;
+}
+.reg-other .icon1{
+    height:50px;
+    width:150px;
+    float:right;
+    padding-left:20px;
+    line-height:50px;
+    font-size:14px;
+}
+.reg-form .form-phone:hover{
+    border:1px solid #000;
+}
+.reg-form .form-button:hover{
+    border:1px solid #000;
+}
+.reg-form .form-submit:hover{
+    background:#C81623;
+}
+
+/* ------footer---------- */
+#footer{
+    width:100%;
+    height:100px;
+    margin-top:100px;
+    border-top:2px solid #F2F2F2;
+}
+.footer{
+    height:100px;
+    width:1200px;
+    margin:auto;
+    position: relative;
+}
+.footer ul{
+    height:50px;
+    width:1200px;
+    margin-bottom:10px;
+    position: absolute;
+    left:70px;
+}
+.footer li{
+    height:14px;
+    float:left;
+    color:#999;
+    font-size:14px;
+    width:90px;
+    line-height:14px;
+    text-align:center;
+    margin-top:30px;
+    border-right:1px solid #999;
+}
+a{
+    color:#666666;
+}
+.footer a:hover{
+    color:#E4393C;
+}
+li:last-child{
+    border-right:none;
+}
+.footer p{
+    font-size:13px;
+    width:1000px;
+    text-align:center;
+    color:#999;
+    position: absolute;
+    top:60px;
+}
+.footer p span{
+    color:#666666;
+}
+.reg-form .imgbox{
+    width:400px;
+    height:250px;
+    position: absolute;
+    top:-140px;
+    display: none;
+    background: #fff;
+    border:1px solid #ccc;
+}
+.reg-form .ox{
+    display:block;
+}

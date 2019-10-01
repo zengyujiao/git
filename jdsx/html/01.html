@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var sl = document.getElementsByClassName("goods_item_inner")[1].children;
+        var data = [];
+        for (var i = 0, len = sl.length; i < len; i++) {
+            var o = {};
+            o.src = sl[i].querySelectorAll("img")[0].src;
+            console.log(o.src);
+            o.name = sl[i].querySelectorAll("p")[0].innerText;
+            o.price = sl[i].querySelectorAll("p")[1].innerText;
+            o.dec = sl[i].querySelectorAll("p")[2].innerText;
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+    </script>
+    <script>
+        // 生鲜
+        var p = document.getElementsByClassName("slider_wrapper")[1].children;
+        var data = [];
+        for(var i = 0, len = p.length; i < len; i++){
+            var o = {};
+            o.src = p[i].querySelectorAll("img")[0].src;
+            o.name = p[i].querySelectorAll("p")[0].innerText
+            o.price = p[i].querySelectorAll("p")[1].innerText
+            o.des = p[i].querySelectorAll("p")[2].innerText
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+    </script>
+
+    <script>
+        var body = document.getElementsByClassName("slider_list")[1].children;
+        console.log(body);
+        var data = [];
+        for(var i = 0, len = body.length; i < len; i++){
+            var o = {};
+            o.src = body[i].querySelectorAll(".goods_item_img")[0].src;
+            o.name =body[i].querySelectorAll(".goods_item_name")[0].innerText;
+            o.price = body[i].querySelectorAll(".goods_item_price")[0].innerText;
+            o.des = body[i].querySelectorAll(".goods_item_good")[2].innerText
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+    </script>
+
+    <script>
+        var fresh = document.getElementsByClassName("slider_wrapper")[2].children;
+        console.log(fresh);
+        var data = [];
+        for(var i = 0, len=fresh.length; i < len; i++){
+            var o = {};
+            o.src = fresh[i].querySelectorAll("img")[0].src;
+            o.src1 = fresh[i].querySelectorAll("img")[1].src;
+            o.name = fresh[i].querySelectorAll("p")[0].innerText;
+            o.classname = fresh[i].querySelectorAll("p")[1].innerText;
+            o.date = fresh[i].querySelectorAll("p")[2].innerText;
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+    </script>
+
+    <script>
+        var cl = document.getElementsByClassName("clearfix")[13].children;
+        var data = [];
+        for(var i = 0, len = cl.length; i < len; i++){
+            var o = {};
+            o.src = cl[i].querySelectorAll("img")[1].src;
+            o.price = cl[i].querySelectorAll("strong")[0].innerText;
+            o.name = cl[i].querySelectorAll("em")[1].innerText;
+            o.des = cl[i].querySelectorAll(".p-comm ")[0].innerText;
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+
+
+        var a = document.getElementsByClassName("gl-warp")[0].children;
+        var data = [];
+        for(var i = 0, len = a.length; i < len; i++){
+            var o = {};
+            o.src =  a[i].querySelectorAll("img")[0].src;
+            o.price = a[i].querySelectorAll("strong")[0].innerText;
+            o.name = a[i].querySelectorAll(".p-name-type-2")[0].innerText;
+            o.des = a[i].querySelectorAll(".p-commit ")[0].innerText;
+            o.clname = a[i].querySelectorAll(".p-shop")[0].innerText;
+            o.oper = a[i].querySelectorAll(".p-o-btn")[0].innerText;
+            o.oper1 = a[i].querySelectorAll(".p-o-btn")[1].innerText;
+            o.oper2 = a[i].querySelectorAll(".p-o-btn")[2].innerText;
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+
+
+        var o = document.getElementsByClassName("track-con")[0].children;
+        var data = [];
+        for(var i = 0, len = o.length; i < len; i++){
+            var o = {};
+            o.src =  o[i].querySelectorAll("img")[0].src;
+            console.log(o.src);
+            o.price = o[i].querySelectorAll("div")[0].innerText;
+            o.name = o[i].querySelectorAll("p")[0].innerText;
+            data.push(o);
+        }
+        var res = JSON.stringify(data);
+        console.log(res);
+    </script>
+
+</body>
+
+</html>

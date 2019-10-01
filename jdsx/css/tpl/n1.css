@@ -1,0 +1,361 @@
+.box{
+    width:100%;
+}
+#nav{
+    width:100%;
+    height:30px;
+    background:#E3E4E5;
+}
+.nav{
+    height:30px;
+    width:1200px;
+    margin:auto;
+    position: relative;
+}
+.nav .left{
+    height:30px;
+    width:150px;
+    position: absolute;
+}
+.nav .left .left-l{
+    height:30px;
+    width:80px;
+    font-size:14px;
+    color:#999999;
+    line-height: 30px;
+    text-align: center;
+    float:left;
+}
+.nav .left .left-l:hover{
+    color:red;
+}
+.nav .left .left-r:hover{
+    background: #fff;
+}
+.nav .left .left-r{
+    height:30px;
+    width:70px;
+    font-size:14px;
+    color:#999999;
+    line-height: 30px;
+    text-align: center;
+    float:right;
+    z-index: 3;
+}
+.nav .left .left-r .w{
+    height:400px;
+    width:300px;
+    background:#fff;
+    border:1px solid #d4d3d3;
+    border-top:none;
+    display: none;
+}
+.left .left-r .w .w-l{
+    height:220px;
+    width:300px;
+    position: relative;
+    border-bottom:1px solid rgb(211, 206, 206);
+}  
+.w .w-l .item{
+    float:left;
+    height:30px;
+    width:60px;
+}
+.w .w-l .item:nth-child(19){
+    background: red;
+    color:#fff;
+}
+.w .w-l .item:hover{
+    background: #d1cece;
+    color:red;
+}
+.left .left-r .w .w-r{
+    height:160px;
+    width:300px;
+    position: relative;
+}
+.left .w .w-r .dt{
+    height:50px;
+    width:300px;
+    position: absolute;
+    left:-80px;
+    line-height: 50px;
+}
+.left .w .w-r .dd{
+    height:70px;
+    width:300px;
+    position: absolute;
+    top:50px;
+}
+.w .w-r .dd .min{
+    float:left;
+    width:150px;
+    font-size:12px;
+}
+.w .w-r .dd .min:hover{
+    color:red;
+}
+.nav .right{
+    height:30px;
+    width:850px;
+    position: absolute;
+    right:0px;
+}
+.nav .right .nr{
+    height:30px;
+    width:900px;
+    position: relative;
+}
+.nav .right .nr .for{
+    display: inline-block;
+    width:100px;
+    float:left;
+    font-size:14px;
+    text-align: center;
+    border-right:1px solid #ccc;
+    margin-top:5px;
+    color:#9999;
+}
+.nav .right .nr .for .er{
+    color:red;
+}
+.nav .right .nr .for .er1{
+    color:#9999;
+}
+.nav .right .nr .for .er1:hover{
+    color:red;
+}
+.nav .right .nr .for:nth-child(1){
+    color:red;
+    border-right:none;
+}
+.nav .right .nr .for:last-child{
+    border-right:none;
+}
+.nav .right .nr .for:hover{
+    color:red;
+}
+.nav .right .nr .for:nth-child(4):hover{
+    background: #fff;
+    height:30px;
+    line-height: 30px;
+    margin-top:0px;
+}
+.nav .right .nr .for:nth-child(6):hover{
+    background: #fff;
+    height:30px;
+    line-height: 30px;
+    margin-top:0px;
+}
+.nav .right .nr .for:nth-child(7):hover{
+    background: #fff;
+    height:30px;
+    line-height: 30px;
+    margin-top:0px;
+    color:#999;
+}
+.nav .right .nr .for:nth-child(8):hover{
+    background: #fff;
+    height:30px;
+    line-height: 30px;
+    margin-top:0px;
+    color:#999;
+}
+.nav .right .nr .for .dt-cw{
+    height:170px;
+    width:200px;
+    border:1px solid #E4E4E4;
+    background:#fff;
+    display: none;
+}
+.right .nr .for .dt-cw .dd-spacer{
+    height:100px;
+    width:200px;
+}
+.nr .for .dt-cw .dd-spacer .dsr{
+    height:30px;
+    width:100px;
+    float:left;
+    line-height:30px;
+}
+.nr .for .dt-cw .dd-spacer .dsr a{
+    color:#999;
+}
+.nr .for .dt-cw .dd-spacer .dsr a:hover{
+    color:red;
+}
+.nr .for .dt-cw .ddor .dr a:hover{
+    color:red;
+}
+.right .nr .for .dt-cw .ddor{
+    height:80px;
+    width:200px;
+    border-top:1px solid #ccc;
+}
+.nr .for .dt-cw .ddor .dr{
+    height:20px;
+    width:100px;
+    float:left;
+    padding-top:10px;
+}
+.nr .for .dt-cw .ddor .dr a{
+    color:#999;
+}
+
+/* ------------logo---------------- */
+#logo{
+    border-bottom: 2px solid red;
+}
+.logo{
+    height:200px;
+    width:1200px;
+    margin:auto;
+}
+.logo .logo-l{
+    height:150px;
+    width:1200px;
+}
+.logo .logo-l .logo-2{
+    height:150px;
+    width:250px;
+    background: url(//misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat 0 40px;
+    float: left;
+    line-height: 150px;
+    text-align: center;
+    background-size: 160px;
+}
+.logo .logo-l .search{
+    height:150px;
+    width:700px;
+    float: left;
+}
+.logo .logo-l .search .se{
+    height:110px;
+    width:700px;
+    padding-top:60px;
+}
+.logo .logo-l .search .se .form{
+    height:40px;
+    width:430px;
+    border:2px solid red;
+    margin-left:180px;
+    float: left;
+    background: url(//misc.360buyimg.com/product/search/1.0.4/css/i/sprite-photo-search.png) 400px 12px no-repeat;
+}
+input{
+    padding-left:10px;
+}
+.logo .logo-l .search .se .bu{
+    height:40px;
+    width:80px;
+    font-size:16px;
+    background:red;
+    color:#fff;
+    margin-left:-5px;
+}
+
+.logo .logo-l .search .ch{
+    height:40px;
+    width:700px;
+    padding-left:180px;
+}
+.logo-l .search .ch .chl .chl-1{
+    height:14px;
+    font-size:12px;
+    float:left;
+    width:40px;
+    text-align: center;
+}
+.ch .chl .chl-2{
+    display:inline-block;
+    width:60px;
+    font-size:12px;
+    float: left;
+}
+.ch .chl .chl-2 a{
+    color:#999;
+}
+.ch .chl .chl-2 i{
+    margin-left:5px;
+}
+.ch .chl .chl-3 i{
+    margin-left:5px;
+}
+.ch .chl .chl-3{
+    display:inline-block;
+    width:90px;
+    font-size:12px;
+    float: left;
+}
+.ch .chl .chl-3 a{
+    color:#999;
+}
+.logo-l .search .ch .chl .chl-1 i{
+    margin-left:5px;
+}
+.logo-l .search .ch .chl .chl-1 a{
+    color:#999999;
+}
+.logo .logo-l .setteup{
+    height:40px;
+    width:100px;
+    background: #F9F9F9;
+    float: left;
+    line-height: 40px;
+    margin-left:20px;
+    margin-top:60px;
+    position: relative;
+    border:1px solid #ccc;
+}
+.logo .logo-l .setteup .tep{
+    color:#666;
+}
+.logo .logo-l .setteup h3{
+    font-size:14px;
+    margin-left:10px;
+    color:red;
+}
+.logo .logo-l .setteup .catShow{
+    display: inline-block;
+    color:red;
+    height:20px;
+    line-height: 20px;
+    position: absolute;
+    top:0px;
+    left:80px;    
+}
+.logo .logo-r{
+    height:50px;
+    width:1200px;
+}
+.logo .logo-r .logol{
+    height:50px;
+    width:250px;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    background: red;
+    float: left;
+}
+.logo .logo-r .logor{
+    height:50px;
+    width:700px;
+    font-size: 14px;
+    float: left;
+    line-height: 50px;
+}
+.logo .logo-r .logor .rt{
+    float: left;
+    width:80px;
+    text-align: center;
+}
+.logo .logo-r .logor .rt i{
+    color:#ccc;
+    margin-left:20px;
+}
+.logo .logo-r .logor .rt a{
+    color:#000;
+}
+.logo .logo-r .logor .rt a:hover{
+    color:red;
+}

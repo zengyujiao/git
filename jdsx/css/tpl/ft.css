@@ -1,0 +1,107 @@
+#glo-footer{
+    height: 530px;
+    width:100%px;
+    background: #EAEAEA;
+    position: relative;
+    top:-100px;
+}
+.glo-footer{
+    height:530px;
+    width:1200px;
+    margin:auto;
+}
+.glo-footer .slogen{
+    height:100px;
+    width:1200px;
+}
+.glo-footer .slogen .slogen-w{
+    height:100px;
+    width:1200px;
+    border-bottom:1px solid #ccc;
+}
+.slogen .slogen-w .sw{
+    height:100px;
+    width:300px;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+    padding-left:5px;
+}
+.glo-footer .jd-help{
+    height:200px;
+    width:1200px;
+    border-bottom:1px solid #ccc;
+}
+.glo-footer .jd-help .fore{
+    height:200px;
+    width:240px;
+    float: left;
+    color:#666;
+    font-size: 14px;
+    padding-top:20px;
+    padding-left:80px;
+}
+.glo-footer .jd-help .fore>dt{
+    color:#777;
+    margin-bottom:10px;
+}
+.glo-footer .gloer{
+    height:217px;
+    width:1200px;
+}
+.glo-footer .gloer .gloer-link{
+    height:40px;
+    width:1200px;
+    padding-top:10px;
+}
+.glo-footer .gloer .gloer-link .gk{
+    height:20px;
+    width:1200px;
+}
+.glo-footer .gloer .gloer-link .gk .gk-sa{
+    display: inline-block;
+    font-size:12px;
+    width:70px;
+    text-align: center;
+    border-right:1px solid #ccc;
+}
+.glo-footer .gloer .gloer-link .gk .gk-sa a:hover{
+    color:red;
+}
+.glo-footer .gloer .gloer-link .gk .gk-sa a{
+    color:#666666;
+}
+.gloer .gloer-link .gk .gk-sa:last-child{
+    border-right:none;
+}
+.glo-footer .gloer .gloer-info{
+    height:135px;
+    width:1200px;
+    padding-top:10px;
+}
+.gloer .gloer-info .gloer-io{
+    height:20px;
+    width:1200px;
+    color:#999999;
+    text-align: center;
+    line-height: 20px;
+    font-size:13px;
+}
+.gloer .gloer-info .gloer-io .io i{
+    padding-left:10px;
+    padding-right:10px;
+}
+.gloer .gloer-info .gloer-io .io a{
+    color:#999;
+}
+.gloer .gloer-info .gloer-io .io a:hover{
+    color:red;
+}
+.glo-footer .gloer .gloer-auth{
+    height:40px;
+    width:1200px;
+}
+.glo-footer .gloer .gloer-auth .auth{
+   width:1200px;
+   text-align: center;
+}
