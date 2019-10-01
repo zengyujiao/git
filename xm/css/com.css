@@ -1,0 +1,229 @@
+/* ------------食／鲜／者／说---------------- */
+#comments{
+    width:100%;
+    background: #1d2224 url(//static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/fresh_comments_bg.jpg) 50% no-repeat;
+}
+.comments{
+    width:1200px;
+    height:430px;
+    margin:auto;
+    position: relative;
+}
+.comments .comments-head{
+    height:60px;
+    width:1200px;
+    color:#fff;
+    position: absolute;
+    top:60px;
+    bottom:40px;
+}
+.comments-head .head-title{
+    height:42px;
+    width:200px;
+    text-align: center;
+    line-height: 42px;
+    margin-left:500px;
+    font-size:25px;
+}
+.comments-head .head-subtitle{
+    height:20px;
+    width:200px;
+    text-align: center;
+    line-height: 20px;
+    margin-left:500px;
+}
+.comments-head .head-title i{
+    margin-left:10px;
+    margin-right:10px;
+    color:#BEBDC0;
+}
+.comments .comments-body{
+    height:290px;
+    width:1200px;
+    position: absolute;
+    top:140px;
+    overflow: hidden;
+}
+.comments-body .co{
+    height:290px;
+    width:9000px;
+}
+.comments-body .co .co-item{
+    float: left;
+    width:400px;
+    height:220px;
+}
+.co .co-item .coitem{
+    height:220px;
+    width:380px;
+    text-align: center;
+    position: relative;
+    top:40px;
+    left:10px;
+    background: #f6f6f6;
+}
+.co .co-item .coitem .co-src{
+    position: absolute;
+    top:60px;
+    left:20px;
+}
+.co .co-item .coitem .co-src1{
+    height:58px;
+    width:58px;
+    border-radius: 50px;
+    margin-top:-30px;
+}
+.co .co-item .coitem .name{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.co .co-item .coitem .classname{
+    width:200px;
+    position: absolute;
+    left:160px;
+}
+.co .co-item .coitem .date{
+    margin-top:100px;
+    margin-left:40px;
+}
+/* ---------------footer------------ */
+#mod-footer{
+    width:100%;
+    background:#00C65D;
+}
+.mod-footer{
+    height:480px;
+    width:1200px;
+    margin:auto;
+    position: relative;
+}
+.mod-footer .mod-service{
+    height:140px;
+    width:1200px;
+    position: absolute;
+    border-bottom:1px solid #04B055;
+}
+.mod1 .mod-item1{
+    float: left;
+    height:50px;
+    width:240px;
+    margin-top:40px;
+    position: relative;
+    border-right:1px solid #41D586;
+}
+.mod1 .mod-item1:last-child{
+    border-right:none;
+}
+.mod1 .mod-item1 .i{
+    position: absolute;
+    top:13px;
+    left:40px;
+}
+.mod1 .mod-item1 .le1{
+    position: absolute;
+    left:80px;
+}
+.mod1 .mod-item1 .mod-title1{
+    font-size:16px;
+    color:#fff;
+}
+.mod1 .mod-item1 .mod-desc1{
+    font-size:12px;
+    color:#80E3AE;
+    margin-top:5px;
+}
+
+
+.mod-footer .mod-main{
+    width:1200px;
+    height:290px;
+    position: absolute;
+    top:140px;
+}
+.mod-main .mod-qrcode{
+    height:174px;
+    width:400px;
+    margin-top:50px;
+    float:left;
+}
+.mod-main .mod-qrcode .item{
+    float:left;
+    height:174px;
+    width:200px;
+    text-align: center;
+}
+.mod-qrcode .item .item-it{
+    margin-top:10px;
+    color:#00632E;
+}
+.mod-main .mod-guide{
+    height:155px;
+    width:800px;
+    float:right;
+    margin-top:50px;
+}
+.mod-main .mod-guide .item{
+    float:left;
+    height:174px;
+    width:180px;
+    padding-left:30px;
+}
+.mod-main .mod-guide .item1{
+    float:left;
+    height:174px;
+    width:230px;
+    padding-left:30px;
+}
+.mod-main .mod-guide .item1 .it{
+    height:26px;
+    width:200px;
+    line-height: 26px;
+    margin-bottom:20px;
+    color:#fff;
+}
+.mod-main .mod-guide .item1 .item-body{
+    display: inline-block;
+    height:24px;
+    width:230px;
+    margin-bottom:5px;
+    color:#79E1AA;
+    font-size:14px;
+}
+.mod-guide .item1 .item-body:nth-child(1):hover{
+    color:#fff;
+}
+.mod-guide .item1 .item-body:last-child:hover{
+    color:#fff;
+}
+.mod-guide .item .it{
+    height:26px;
+    width:200px;
+    line-height: 26px;
+    margin-bottom:20px;
+    color:#fff;
+}
+.mod-guide .item .ite{
+    height:120px;
+    width:200px;
+    padding-top:5px;
+}
+.mod-guide .item .item-body{
+    display: inline-block;
+    height:24px;
+    width:200px;
+    margin-bottom:5px;
+    color:#79E1AA;
+    font-size:14px;
+}
+.mod-guide .item .item-body:hover{
+    color:#fff;
+}
+.mod-footer .mod-copyr{
+    height:50px;
+    width:1200px;
+    color:#00632E;
+    text-align: center;
+    line-height:50px;
+    position: absolute;
+    bottom:0px;
+}
